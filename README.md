@@ -20,7 +20,6 @@ This project focuses on analyzing sales and customer data using SQL. The aim is 
 
 **Change Over Year**
 ```sql
-
 SELECT 
 YEAR(order_date)as order_year,
 sum(sales_amount) as total_sales_amount,
@@ -34,7 +33,6 @@ order by YEAR(order_date);
 
 **Change Over Month**
 ```sql
-
 SELECT 
 MONTH(order_date)as order_month,
 sum(sales_amount) as total_sales_amount,
@@ -50,7 +48,6 @@ order by MONTH(order_date);
 **For Month**
 
 ```sql
-
 SELECT
 order_date,
 total_sales,
@@ -68,9 +65,7 @@ GROUP BY DATETRUNC(month,order_date)
 ```
 
 **For Year**
-
 ```sql
-
 SELECT
 order_date,
 total_sales,
@@ -92,7 +87,6 @@ GROUP BY DATETRUNC(year,order_date)
 **3. Performance Analysis**: Compares current product sales against average and previous year’s performance, highlighting underperforming or outperforming products.
       
 ```sql
-
 WITH yearly_product_sales as
 (
 SELECT 
@@ -131,7 +125,6 @@ order by product_name, order_year
 
 
 ```sql
-
 WITH category_sales AS
 (
 SELECT 
@@ -158,7 +151,6 @@ ORDER BY total_sales desc
 
 
 ```sql
-
 WITH product_segment AS
 (
 SELECT 
@@ -187,7 +179,6 @@ ORDER BY total_products DESC
                         Divides customers into groups based on lifespan and spending patterns, then aggregates KPIs like total orders, sales, average spend. This helps in targeting retention and marketing strategies.
 
 ```sql
-
 WITH customer_spending AS(
 SELECT
 c.customer_key,
@@ -224,7 +215,6 @@ ORDER BY total_customers
 **6. KPI Analysis**:Builds a customer-level view that segments users into groups (VIP, Regular, New) and age bands. It aggregates orders, sales, products purchased, and lifespan to calculate KPIs such as average order value and monthly spend. This helps identify high-value customers and tailor retention strategies.
 
 ```sql
-
 /*1. Base query: Retreives core columns from tables
 2. Segments customers into categories(VIP ,Regular, New) and age group
 3. Aggregates customer-level metrics:
