@@ -310,43 +310,38 @@ SELECT * FROM gold.report_customers
 ## Findings:
 
 **Yearly Sales and Price Trends**:
-            *Average price and sales vary across years.
-            *Provides a high-level view of long-term performance.
+            Average price and sales vary across years.
+            Provides a high-level view of long-term performance.
 
 **Monthly Sales (Seasonality)**:
-            *Monthly data shows seasonal changes in sales and customers.
-            *Useful for identifying peak and low periods.
+            Monthly data shows seasonal changes in sales and customers.
+            Useful for identifying peak and low periods.
 
 **Cumulative Analysis**:
-            *Running totals confirm overall sales growth over months and years.
-            *Helps track whether the business is progressing or slowing down.
+            Running totals confirm overall sales growth over months and years.
+            Helps track whether the business is progressing or slowing down.
 
 **Performance Analysis**:
-            *Product sales compared with averages and previous year highlight top and weak performers.
-            *Supports better product decisions.
+            Product sales compared with averages and previous year highlight top and weak performers.
+            Supports better product decisions.
 
 **Part-to-Whole (Category Contribution)**:
-            *Certain categories contribute more to overall sales.
-            *Shows which categories have the greatest business impact.
+            Certain categories contribute more to overall sales.
+            Shows which categories have the greatest business impact.
 
 **Product Segmentation (Cost Range)**:
-            *Products are concentrated in mid-price ranges (100–500).
-            *Premium and low-cost segments are smaller but important for niche demand.
+            Products are concentrated in mid-price ranges (100–500).
+            Premium and low-cost segments are smaller but important for niche demand.
 
 **Customer Segmentation and KPIs**:
-            *VIP customers: long-term and high spenders, most valuable.
-            *Regular customers: steady but lower contribution.
-            *New customers: significant in number, need retention focus.
-            *KPIs like average order value and monthly spend provide clear benchmarks.
+            VIP customers: long-term and high spenders, most valuable.
+            Regular customers: steady but lower contribution.
+            New customers: significant in number, need retention focus.
+            KPIs like average order value and monthly spend provide clear benchmarks.
 
 
 **Conclusion**: 
-      *The business shows consistent growth with visible seasonal sales patterns.
-      *Mid-range products (100–500) and key categories contribute the most to revenue.
-      *VIP customers are the most profitable group, while regular customers provide stability.
-      *A large share of new customers highlights the need for retention strategies.
-      *Overall insights support better planning in pricing, product mix, and customer targeting.
-      
+The analysis shows that the business is experiencing steady growth with clear seasonal sales patterns. Mid-range products and a few key categories contribute the largest share of revenue, while premium and low-cost products play a smaller but important role. Customer segmentation highlights that VIP customers, though fewer in number, generate the highest value, whereas regular customers provide consistent revenue. A large proportion of new customers indicates growth opportunities but also emphasizes the need for retention strategies. Overall, the findings support focused actions in pricing, product mix, and customer engagement to drive sustainable business performance.
 
       
 
