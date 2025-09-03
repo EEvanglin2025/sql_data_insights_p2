@@ -45,8 +45,7 @@ group by MONTH(order_date)
 order by MONTH(order_date);
 
 ```
-## 2. Cumulative Analysis:
-                  Tracks both monthly and yearly running totals of sales. Helps visualize whether sales are steadily increasing or if there are dips over time.
+**2. Cumulative Analysis**: Tracks both monthly and yearly running totals of sales. Helps visualize whether sales are steadily increasing or if there are dips over time.
 
 **For Month**
 
@@ -90,8 +89,7 @@ GROUP BY DATETRUNC(year,order_date)
 
 ```
 
-## 3. Performance Analysis:
-                  Compares current product sales against average and previous year’s performance, highlighting underperforming or outperforming products.
+**3. Performance Analysis**: Compares current product sales against average and previous year’s performance, highlighting underperforming or outperforming products.
       
 ```sql
 
@@ -129,8 +127,7 @@ order by product_name, order_year
 
 ```
 
-## 4.Part-to-Whole Analysis:
-                  Analyzes contribution of each category to total sales. Useful for identifying the most impactful categories driving overall business.
+**4.Part-to-Whole Analysis**: Analyzes contribution of each category to total sales. Useful for identifying the most impactful categories driving overall business.
 
 
 ```sql
@@ -156,7 +153,7 @@ ORDER BY total_sales desc
 
 ```
 
-## 4.Customer Segmentation Cost Range :
+**4.Customer Segmentation Cost Range** :Classifies products into cost ranges (Below 100, 100–500, 500–1000, Above 1000) to understand product distribution across price bands. Helps in identifying which price segment dominates the catalog.
                              Classifies products into cost ranges (Below 100, 100–500, 500–1000, Above 1000) to understand product distribution across price bands. Helps in identifying which price segment dominates the catalog.
 
 
@@ -185,7 +182,8 @@ ORDER BY total_products DESC
 
 ```
 
-## 5.Customer Segmentation (VIP, Regular, New):
+**5.Customer Segmentation (VIP, Regular, New)**:Divides customers into groups based on lifespan and spending patterns, then aggregates KPIs like total orders, sales, average spend. This helps in targeting retention and marketing strategies.
+
                         Divides customers into groups based on lifespan and spending patterns, then aggregates KPIs like total orders, sales, average spend. This helps in targeting retention and marketing strategies.
 
 ```sql
@@ -223,8 +221,7 @@ ORDER BY total_customers
 
 ```
 
-## 6. KPI Analysis:
-            Builds a customer-level view that segments users into groups (VIP, Regular, New) and age bands. It aggregates orders, sales, products purchased, and lifespan to calculate KPIs such as average order value and monthly spend. This helps identify high-value customers and tailor retention strategies.
+**6. KPI Analysis**:Builds a customer-level view that segments users into groups (VIP, Regular, New) and age bands. It aggregates orders, sales, products purchased, and lifespan to calculate KPIs such as average order value and monthly spend. This helps identify high-value customers and tailor retention strategies.
 
 ```sql
 
@@ -343,12 +340,13 @@ SELECT * FROM gold.report_customers
             *KPIs like average order value and monthly spend provide clear benchmarks.
 
 
-## Conclusion: 
+**Conclusion**: 
       *The business shows consistent growth with visible seasonal sales patterns.
       *Mid-range products (100–500) and key categories contribute the most to revenue.
       *VIP customers are the most profitable group, while regular customers provide stability.
       *A large share of new customers highlights the need for retention strategies.
       *Overall insights support better planning in pricing, product mix, and customer targeting.
+      
 
       
 
