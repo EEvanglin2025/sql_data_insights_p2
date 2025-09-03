@@ -16,8 +16,7 @@ This project focuses on analyzing sales and customer data using SQL. The aim is 
 
 ## Project Structure
 
-## 1. Change Over Time: 
-      Tracking how sales evolve over years provides a high-level view for decision-making. At a monthly level, it highlights seasonality patterns.
+**1. Change Over Time**: Tracking how sales evolve over years provides a high-level view for decision-making. At a monthly level, it highlights seasonality patterns.
 
 **Change Over Year**
 ```sql
