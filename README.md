@@ -341,12 +341,12 @@ SELECT * FROM gold.report_customers
 
 
 ## Conclusion:
--The business shows consistent growth with visible seasonal sales patterns.
--Mid-range products (100–500) and key categories contribute the most to revenue.
--VIP customers are the most profitable group, while regular customers provide stability.
--A large share of new customers highlights the need for retention strategies.
--Overall insights support better planning in pricing, product mix, and customer targeting.
 
+The analysis shows that the business is experiencing steady growth with clear seasonal sales patterns. Mid-range products and a few key categories contribute the largest share of revenue, while premium and low-cost products play a smaller but important role.
+
+Customer segmentation highlights that VIP customers, though fewer in number, generate the highest value, whereas regular customers provide consistent revenue. A large proportion of new customers indicates growth opportunities but also emphasizes the need for retention strategies.
+
+Overall, the findings support focused actions in pricing, product mix, and customer engagement to drive sustainable business performance.
       
 
 
