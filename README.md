@@ -174,9 +174,7 @@ ORDER BY total_products DESC
 
 ```
 
-**5.Customer Segmentation (VIP, Regular, New)**:Divides customers into groups based on lifespan and spending patterns, then aggregates KPIs like total orders, sales, average spend. This helps in targeting retention and marketing strategies.
-
-                        Divides customers into groups based on lifespan and spending patterns, then aggregates KPIs like total orders, sales, average spend. This helps in targeting retention and marketing strategies.
+**5.Customer Segmentation (VIP, Regular, New)**:Divides customers into groups based on lifespan and spending patterns, then aggregates KPIs like total orders, sales, average spend. This helps in targeting retention and marketing strategies. Divides customers into groups based on lifespan and spending patterns, then aggregates KPIs like total orders, sales, average spend. This helps in targeting retention and marketing strategies.
 
 ```sql
 WITH customer_spending AS(
